@@ -1,23 +1,50 @@
 #loginUI{
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.purple{
+.expand{
   width: 100px;
-  height: 100px;
-  background-color: purple;
+  background-color: blue;
   border-radius: 5px;
 }
 
-.btn{
-  margin-top: 70px;
-}
-
-.blue{
+.collapse{
   width: 100px;
   height: 100px;
   background-color: blue;
   border-radius: 5px;
+}
+
+.btn{
+  position: absolute;
+  bottom: 10px;
+}
+
+
+.g1, .g3{
+  background-color: white;
+  height: 100px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+.g1{
+  position: absolute;
+  left: 3px;
+}
+
+.g3{
+  position: absolute;
+  right: 0;
+}
+
+.g2{
+  background-color: white;
+  height: 100px;
+  width: 40px;
+  margin-right: 7px;
+  border-radius: 15px;
 }
