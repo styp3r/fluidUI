@@ -1,0 +1,23 @@
+#loginUI{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.purple{
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+  border-radius: 5px;
+}
+
+.btn{
+  margin-top: 70px;
+}
+
+.blue{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 5px;
+}
