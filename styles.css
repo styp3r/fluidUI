@@ -5,46 +5,50 @@
   justify-content: center;
 }
 
+#signupUI{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px 0 0 10px;
+}
+
+.invisible{
+  display: none;
+}
+
 .expand{
-  width: 100px;
+  width: 400px;
   background-color: blue;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 .collapse{
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 400px;
   background-color: blue;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
-.btn{
+.btn1{
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  bottom: 100px;
+  border-radius: 15px;
+  background-color: white;
+  border-style: none
+}
+
+.signUp{
   position: absolute;
   bottom: 10px;
+  color: white;
 }
 
-
-.g1, .g3{
-  background-color: white;
-  height: 100px;
-  width: 20px;
-  border-radius: 10px;
-}
-
-.g1{
-  position: absolute;
-  left: 3px;
-}
-
-.g3{
-  position: absolute;
-  right: 0;
-}
-
-.g2{
-  background-color: white;
-  height: 100px;
-  width: 40px;
-  margin-right: 7px;
-  border-radius: 15px;
+.signUp:hover{
+  cursor: pointer;
 }
